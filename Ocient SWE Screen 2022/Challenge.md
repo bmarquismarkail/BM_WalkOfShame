@@ -56,9 +56,7 @@ Data Types
 As mentioned above, literals (i.e., constants) have exactly one of two data types, either integer or string. Text read from the input stream will be presented in the specified input representation, and your program's output of the outer-most function's result should be in the specified output representation.
 
 | Type    | Input Representation                                        | Output Representation                                      | Limits            |
-|
-
----------|------------------------------------------------------------|------------------------------------------------------------|--------------------|
+|---------|------------------------------------------------------------|------------------------------------------------------------|--------------------|
 | Integer | base-10 digits: 12345                                      | base-10 digits: 12345                                      | Value ranges [0,2^31-1] |
 | String  | string of characters enclosed in quotation marks: "abc 123" | string of characters, no quotation marks: abc 123 | Maximum length 256 |
 
@@ -149,9 +147,7 @@ Complication #3: Simple Branching
 
 Branching is a powerful feature of programming languages. We can implement something basic in our expression engine. We can define a simple function `if_ge(val, comp, left, right)` where `val` is the value to be compared against `comp`, and depending on whether or not `val` is greater or equal to `comp`, we return the `left` or `right` value. If you have completed complication #2, `val` may additionally be a vector, and `left`, `right`, and `comp` will also be vectors of equal length. `if_ge()` will then function as an element-wise function, constructing a new vector containing values for `left` and `right` depending on the comparison of `val` and `comp`.
 
-| Function             | Description                                                                      | Input Types                     |
-
- Return Type |
+| Function             | Description                                                                      | Input Types                     | Return Type |
 |----------------------|----------------------------------------------------------------------------------|---------------------------------|-------------|
 | if_ge(val,comp,left,right) | Returns the `left` or `right` value depending on if `val >= comp`               | Integers, or int[] for `val` and `comp`, any for `left` and `right` | int, string, int[] |
 
