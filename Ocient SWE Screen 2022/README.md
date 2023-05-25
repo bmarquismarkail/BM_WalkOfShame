@@ -16,7 +16,7 @@ Ah, the sneaky delimiters! Those mischievous beings can easily lead us astray. I
 
 ## 4) The thing about HackerRank Challenges, it's hard to Copy... NOT! Just go to the developer console, find the parent element, and copy its innerText or textContent property.
 
-Ah, the art of copying! While many challenges claim to be copy-proof, they often underestimate the resourcefulness of clever developers. In the whimsical realm of HackerRank challenges, copying can become a whimsy-filled adventure of its own. With a dash of cleverness and a sprinkle of technical finesse, one can journey into the developer console, uncover the hidden secrets of the parent element, and triumphantly copy its innerText or textContent property. Embrace your inner hacker and conquer the challenge with your newfound copy prowess!
+Ah, the art of copying! While many challenges claim to be copy-proof, they often underestimate the resourcefulness of clever developers. In the whimsical realm of HackerRank challenges, copying can become a whimsy-filled adventure of its own. With a dash of cleverness and a sprinkle of technical finesse, one can journey into the developer console, uncover the hidden secrets of the parent element, and triumphantly copy its innerText or textContent property. I would like to state that use it at your own discretion: I only did this at the last minute after I conceded. Now embrace your inner hacker and conquer the challenge with your newfound copy prowess!
 
 ---
 
